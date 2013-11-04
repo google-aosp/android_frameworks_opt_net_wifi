@@ -1536,6 +1536,7 @@ public class WifiNative {
             return "*** failed to read kernel log ***";
         }
     }
+    public native static boolean setMode(int mode);
 
     /* WIFI HAL support */
 
